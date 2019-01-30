@@ -1,10 +1,10 @@
-### UXAdmin - Personal Template HTML CSS3
+# UXAdmin - Personal Template HTML CSS3
 
-# Simple template that describes an admin UI. 
+### Simple template that describes an admin UI. 
 
-# Developed with
+### Developed with
 
--Bootstrap 4
--Font Awesome
--HTML5
--CSS3
+ - Bootstrap 4
+ - Font Awesome
+ - HTML5
+ - CSS3
