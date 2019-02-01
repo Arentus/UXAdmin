@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 	<title>UXAdmin</title>
 
 	<link rel="stylesheet" href="vendor/css/bootstrap.min.css">
@@ -21,9 +22,9 @@
 			<li class="nav-el">
 				<div class="courtin">
 				</div>
-					<a href="#get" class="t"><i class="fas fa-home nav-icon"></i>
-						<p class="el-description">Home</p>
-					</a>	
+				<a href="#get" class="t"><i class="fas fa-home nav-icon"></i>
+					<p class="el-description">Home</p>
+				</a>
 			</li>
 			<li class="nav-el">
 				<div class="courtin">
@@ -50,7 +51,8 @@
 	</nav>
 
 	<main class="no-padding main">
-		<div class="wrapper">
+
+		<div class="wrapper container-fluid d-flex flex-column justify-content-center">
 			<div class="row">
 				<div class="col-md-12 welcome">
 
@@ -58,94 +60,138 @@
 					<h1 class="welcome-title">
 						UXAdmin</h1>
 
-					<p>Save time with the Smart Admin UI for Business. Full customizable. Adaptable to all environments and workflows.</p>
+					<p><strong>Save time</strong> with the Smart Admin UI for Business. Full customizable. Adaptable to all environments and workflows.</p>
 
 					<div class="btn-wrapper">
 						<a href="" class="btn btn-primary btn-xl">Get Product</a>
 						<a href="" class="btn btn-default btn-xl">Talk with Us</a>
 					</div>
+					
+					<small style="color: gray; font-size: .7em;">Template made with <i class="fas fa-heart"></i><a href="https://www.github.com/arentus"> by Robwert.</a></small>
 				</div>
 			</div>
 		</div>
-		
+
 		<!--tech stack section -->
-		
-		<section class="container wrapper-details">
-			
-			<div class="row">
+
+		<section class="wrapper-details container-fluid">
+
+			<div class="row tech-title">
 				<div class="col-md-12">
 					<h2 class="details-title">Tech Stack</h2>
 					<p class="small-text">Save Time. Enjoy Life.</p>
 				</div>
 			</div>
-			
+
 			<hr class="hr">
-			
+
 			<div class="row">
-			
+
 				<div class="col-md-3">
-				
 					<div class="description-box">
-						
 						<div class="description-caption">
-						
-							<i class="far fa-clock"></i>
-							<span class="caption-title">Save Time</span>
+							<i class="fab fa-aws"></i>
+							<span class="caption-title"> Web Services</span>
 						</div>
 						<div class="description-txt">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia adipisci officia aut
 						</div>
 					</div>
-					
 				</div>
+
 				<div class="col-md-3">
-				
 					<div class="description-box">
-						
 						<div class="description-caption">
-						
-							<i class="far fa-clock"></i>
-							<span class="caption-title">Save Time</span>
+							<i class="fas fa-cloud"></i>
+							<span class="caption-title"> Integrated Cloud</span>
 						</div>
 						<div class="description-txt">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia adipisci officiatio?
 							Nobis tenetur repudiandae magni accusamus sit eum perferendis sunt et ullam deleniti!
 						</div>
 					</div>
-					
-				</div><div class="col-md-3">
-				
+				</div>
+
+				<div class="col-md-3">
 					<div class="description-box">
-						
 						<div class="description-caption">
-						
-							<i class="far fa-clock"></i>
-							<span class="caption-title">Save Time</span>
+							<i class="fas fa-database animation-rotation"></i>
+							<span class="caption-title">GraphQL API</span>
 						</div>
 						<div class="description-txt">
 							Lorem ipsum dolor sit amet, dipisicing elit. Quia adipisci officia autem nobis cum earum debitis minus reprehenderit eius optio?
 						</div>
 					</div>
-					
-				</div><div class="col-md-3">
-				
+				</div>
+				<div class="col-md-3">
+
 					<div class="description-box">
-						
+
 						<div class="description-caption">
-						
-							<i class="far fa-clock"></i>
-							<span class="caption-title">Save Time</span>
+
+							<i class="fab fa-react animation-rotation"></i>
+							<span class="caption-title">React Js Support</span>
 						</div>
 						<div class="description-txt">
-							 Sit amet, consectetur adipisicing elit. Quia adipisci officia anus reprehenderit eius optio?
+							Sit amet, consectetur adipisicing elit. Quia adipisci officia anus reprehenderit eius optio?
 						</div>
+
 					</div>
+
+				</div>
+			</div>
+		</section>
+		
+		<section class="container-fluid img-desc">
+			<div class="row overlay">
+				<div class="col-md-6 img-desc-txt mt-5 mb-5 pl-4">
+					<h4 class="img-desc-titlte">Lorem ipsum dolor sit amet.</h4>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quae voluptate, eos fuga. Dolorem nobis eum voluptatem, sunt ea impedit excepturi alias ipsa voluptas adipisci rerum. Necessitatibus laborum corporis, a.</p>
 					
+					<a href="" class="btn btn-primary btn-xl">
+						Get in touch
+					</a>
+				</div>
+				<div class="col-md-6 no-padding">
+					<img class="img-r" src="./assets/img/compuUI.png" alt="">
 				</div>
 			</div>
 			
 		</section>
+		<section class="container-fluid brands-wrapper p-5">
+			<div class="row d-flex justify-content-center">
+				<h1 class="brand-title">Who use UXAdmin</h1>
+				<hr>
+				<div class="brands-bar col-md-12">
+					<i class="fab fa-fedex"></i>
+					<i class="fab fa-cc-stripe"></i>
+					<i class="fab fa-empire"></i>
+					<i class="fab fa-google"></i>
+					<i class="fab fa-deskpro"></i>
+					<i class="fab fa-medium"></i>
+					<i class="fab fa-linkedin"></i>
+				</div>
+			</div>
+		</section>
 
+		<section class="container-fluid multimedia-wrapper">
+			<div class="row">
+				<div class="col-md-4 m-box">
+					<h3>Lorem Ipsum Dolor</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur.</p>
+					<a href="#" class="btn btn-default m-link">Contact<i class="fas fa-arrow-right"></i></a>
+				</div>
+				<div class="col-md-4 m-video">
+					<iframe width="869" height="489" src="https://www.youtube.com/embed/HiZXABMNCUY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="col-md-4 m-box">
+					<h3>Lorem Ipsum Dolor</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur.</p>
+					<a href="#" class="btn btn-default m-link">Meet Us<i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+		</section>
 	</main>
 
 	<script src="vendor/js/jquery-3.1.1.js"></script>
